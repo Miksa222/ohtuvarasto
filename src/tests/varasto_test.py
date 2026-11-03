@@ -17,6 +17,7 @@ class TestVarasto(unittest.TestCase):
         varasto=Varasto(-1)
         self.assertAlmostEqual(varasto.tilavuus,0)
     #testi_kommentti
+    #testi_kommennti2
     def test_alkusaldo_on_negatiivinen(self):
         varasto=Varasto(0,-1)
         self.assertAlmostEqual(varasto.saldo,0)
